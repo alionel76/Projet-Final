@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/styles.css">
+        <script type="text/JavaScript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script src="scripts/script.js"></script>
+        <title>Portfolio | Lionel Adandokpossi</title>
+    </head>
+
+    <body>
+        <!-- EN TETE DU SITE-->
+        <header class="main_header">
+            <h1>Lionel <span class="nom_portfolio">Adandokpossi</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#a_propos">À propos</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        
+        <!-- CONTENU PRINCIPAL DU SITE -->
+        <main>
+            <!-- SECTION INTRODUCTION -->
+            <section class="introduction" id="introduction">
+                <div>
+                    <p>
+                        Bienvenue sur mon portfolio en ligne ! <br> <br>
+                        Je suis <strong><span class="prenom_portfolio">Lionel</span> ADANDOKPOSSI</strong>, Développeur en formation passionné par la création de solutions web 
+                        innovantes. <br> <br>
+
+                        <input type="button" value="Voir mes projets" onclick="window.location.href='#projets'">
+                    </p>
+                </div>
+
+                <div>
+                    <img src="fichiers_statics/images/presentation_html_css_javascript.jpg" alt="Photo de Lionel Adandokpossi" srcset="">
+                </div>
+            </section>
+
+            <!-- SECTION A PROPOS -->
+            <h2 class="debut_a_propos" id="a_propos">À propos de moi</h2>
+            <section class="a_propos">
+                <div>
+                    <p>
+                        Je m'appelle <strong><span class="prenom_portfolio">Lionel</span> ADANDOKPOSSI</strong>, passionné par la création de sites webs modernes 
+                        et interactifs. <br> <br>
+                        Je suis actuellement étudiant en <span class="prenom_portfolio">développement web</span>, constactamment à l'écoute des nouvelles technologies et 
+                        techniques afin d'améliorer mes compétences en HTML, CSS et JavaScript. <br> <br>
+                        J'aime mettre en pratiques mes compétences pour créer des projets concrets et innovants en accord avec les dernières tendances du web. <br> <br>
+
+                        <input type="button" value="Télécharger mon CV" onclick="window.location.href='fichiers/Curriculum vitae Lionel Adandokpossi.pdf'">
+                    </p>
+                </div>
+
+                <div>
+                    <img src="fichiers_statics/images/photo_lionel_adandokpossi.jpg" alt="Photo de Lionel Adandokpossi" srcset="">
+                </div>
+
+            </section>
+
+
+            <!-- SECTION MES PROJETS -->
+            <h2 class="debut_mes_projets" id="projets">Mes projets</h2>
+            <section class="mes_projets">
+                <div class="projet">
+                    <h3>Site Web Portfolio </h3>
+                    <p>Un site web personnel pour présenter mes compétences et projets.</p> <br>
+                    <p>#html, #css, #python #django, #algorithmique</p>
+                    <input type="button" value="Voir" onclick="window.location.href='fichiers_statics/projets/projet_01.zip'">
+                </div>
+
+                <div class="projet">
+                    <h3>Calculateur de Prêt Hypothécaire</h3>
+                    <p>Une application web pour gérer automatiquemment le calcut du montant d'un prêt bancaire.</p> <br>
+                    <p>#html, #javascript, #algorithmique</p>
+                    <input type="button" value="Voir" onclick="window.location.href='fichiers_statics/projets/projet_02.zip'">
+                </div>
+
+                <div class="projet">
+                    <h3>Quelques Mini Scripts</h3>
+                    <p>Un recueil de mini code JavaScript, à titre d'apprentissage.</p> <br>
+                    <p>#html, #javascript, #algorithmique</p>
+                    <input type="button" value="Voir" onclick="window.location.href='fichiers_statics/projets/projet_03.zip'">
+                </div>
+            </section>
+
+
+            <!-- SECTION MES COMPETENCES -->
+            <h2 class="debut_mes_competences" id="competences">Mes compétences</h2>
+            <section class="mes_competences">
+                <!-- SOFT SKILLS-->
+                <div class="type_competence">
+                    <span class="titre_competence">Soft Skills</span> <br> <br>
+
+                    <span>Gestion d'équipe </span>
+                    <div class="competence">
+                        <div class="niveau_competence" style="width: 80%;"></div>
+                    </div> <br>
+                    
+                    <span>Orienté solutions </span>
+                    <div class="competence">
+                        <div class="niveau_competence" style="width: 60%;"></div>
+                    </div> <br>
+
+                    <span>Adaptabilité </span>
+                    <div class="competence">
+                        <div class="niveau_competence" style="width: 90%;"></div>
+                    </div> <br>
+
+                    <span>Sens critique </span>
+                    <div class="competence">
+                        <div class="niveau_competence" style="width: 90%;"></div>
+                    </div> <br>
+                </div>
+
+                <!-- HARD SKILLS-->
+                <div class="type_competence">
+                    <span class="titre_competence">Hard Skills</span> <br> <br>
+
+                    <span>HTML</span>
+                    <div class="competence">
+                        <div class="niveau_competence" style="width: 95%;"></div>
+                    </div> <br>
+
+                    <span>CSS</span>
+                    <div class="competence">
+                        <div class="niveau_competence" style="width: 85%;"></div>
+                    </div> <br>
+
+                    <span>JavaScript</span>
+                    <div class="competence">
+                        <div class="niveau_competence" style="width: 65%;"></div>
+                    </div> <br>
+
+                    <span>Python</span>
+                    <div class="competence">
+                        <div class="niveau_competence" style="width: 85%;"></div>
+                    </div> <br>
+
+                    <span>Django</span>
+                    <div class="competence">
+                        <div class="niveau_competence" style="width: 45%;"></div>
+                    </div> <br>
+
+                    <span>Visual Studio Code</span>
+                    <div class="competence">
+                        <div class="niveau_competence" style="width: 98%;"></div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- SECTION CONTACT -->
+            <h2 class="debut_contact" id="contact">
+                Vous avez <span class="prenom_portfolio">un projet en tête ?</span> <br> 
+                N'hésitez pas à me <span class="prenom_portfolio">contacter</span>
+            </h2>
+            <section class="contact">
+                <form id="formulaire_contact" class="formulaire_contact">
+                    <!-- Nom-->
+                    <div class="contenue_formulaire_1">
+                        <label for="nom">Votre nom</label> <br>
+                        <input type="text" name="nom" id="nom">
+                    </div>
+
+                    <!-- Email-->
+                    <div class="contenue_formulaire_1">
+                        <label for="email">Votre email</label> <br>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <!-- Sujet-->
+                    <div class="contenue_formulaire_2">
+                        <label for="sujet">Votre sujet</label> <br>
+                        <input type="text" name="sujet" id="sujet">
+                    </div>
+
+                    <!-- Prénom-->
+                    <div class="contenue_formulaire_3">
+                        <label for="message"></label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+
+                    <input type="submit" id="button" value="Envoyer" class="envoyer" onclick="envoyer_formulaire();">
+                </form>
+            </section>
+
+        </main>
+
+
+        <!-- PIED DE PAGE DU SITE -->
+        <footer class="main_footer">
+            <p class="auteur">
+                Design fait par <strong><span class="prenom_portfolio">Lionel</span> ADANDOKPOSSI</strong> avec HTML, CSS et JS (JavaScript)
+            </p>
+
+            <p class="droits">
+                Tous droits réservés - 2026
+            </p>
+        </footer>
+
+    </body>
+</html>
